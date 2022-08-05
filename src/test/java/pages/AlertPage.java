@@ -14,6 +14,9 @@ public class AlertPage {
 	public AlertPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	public AlertPage(WebDriver driver1,WebElement ele) {
+		this.driver = driver;
+	}
 
 	public WebElement getAlertButton() {
 		return alertButton;
